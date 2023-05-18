@@ -4,8 +4,8 @@
 
 #main {
   @include clearfix;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 100px;
+  margin-right: 0;
   padding-left: 1em;
   padding-right: 1em;
   -webkit-animation: $intro-transition;
@@ -36,12 +36,6 @@ body {
 }
 
 .page {
-  @include breakpoint($large) {
-    float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
-  }
-
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
@@ -52,7 +46,7 @@ body {
     margin-top: 1em;
     margin-left: 0;
     margin-right: 0;
-    width: 100%;
+    width: 150%;
     clear: both;
 
     .page__content,
@@ -113,7 +107,7 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   /* paragraph indents */
