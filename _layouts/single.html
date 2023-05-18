@@ -36,6 +36,7 @@ layout: default
           {% include page__meta.html %}
         </header>
       {% endunless %}
+      <br />
 
       <section class="page__content e-content" itemprop="text">
         {% if page.toc %}
@@ -57,8 +58,6 @@ layout: default
         {% include page__taxonomy.html %}
         {% include page__date.html %}
       </footer>
-
-      {% if page.share %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
     </div>
