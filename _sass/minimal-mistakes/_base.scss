@@ -126,6 +126,9 @@ blockquote {
 /* links */
 
 a {
+  color: inherit; /* 색상을 기본값으로 설정 */
+  text-decoration: none; /* 밑줄을 제거 */
+  
   &:focus {
     @extend %tab-focus;
   }

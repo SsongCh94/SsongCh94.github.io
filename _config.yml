@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Ssong_ch94"
+title                    : "Ssong_ch94's development blog"
 title_separator          : "|"
-# subtitle                 : 'development blog ch.94'
+subtitle                 : 'development blog ch.94'
 name                     : "Ssong_ch94"
 description              : 'development blog ch.94'
 url                      : "https://SsongCh94.github.io"
@@ -105,13 +105,11 @@ analytics:
 # Site Author
 author:
   name             : "Ssong_ch.94"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/sesame2.jpg"
   bio              : "초보 개발자"
+  location : "South Korea"
   email            : 'thddkwl94@gmail.com'
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+  github           : 'https://github.com/SsongCh94'
 
 # Site Footer
 footer:
